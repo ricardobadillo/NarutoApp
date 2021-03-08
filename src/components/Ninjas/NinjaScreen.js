@@ -84,13 +84,12 @@ export const NinjaScreen = ({history}) => {
     const {id, name, village, techniques, phrase} = ninja;
 
     return (
-
         <>
             <h1>Personajes de Naruto</h1>
             <hr/>
             <Div>
                 <DivImagen>
-                    <Imagen src={`../assets/Naruto/${id}.jpg`} className="animate__animated animate__fadeInLeft" alt={name} />
+                    <Imagen src={`/public/assets/Naruto/${id}.jpg`} className="animate__animated animate__fadeInLeft" alt={name} />
                 </DivImagen>
 
                 <DivTexto>
