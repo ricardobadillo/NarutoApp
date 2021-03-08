@@ -18,7 +18,7 @@ jobs:
       - name: install packages
         run: npm install
       - name: registry github user
-        run: /
+        run: | 
           git config --global user.email "ricardo94badillo@gmail.com"
           git config --global user.name "Ricardo Badillo"
       - name: deploy the app
